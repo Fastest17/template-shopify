@@ -1,0 +1,10 @@
+# Ignore everything
+.DS_Store
+package-lock.json
+bower_components
+.idea
+node_modules
+
+# But not these files...
+!.gitignore
+# etc...

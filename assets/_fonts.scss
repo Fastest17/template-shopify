@@ -1,0 +1,49 @@
+@font-face {
+    font-family: 'Gotham Book';
+    src: url('./Gotham-Book.eot');
+    src: url('./Gotham-Book.eot?#iefix') format('embedded-opentype'),
+        url('./Gotham-Book.woff2') format('woff2'),
+        url('./Gotham-Book.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gotham';
+    src: url('./Gotham-Medium.eot');
+    src: url('./Gotham-Medium.eot?#iefix') format('embedded-opentype'),
+        url('./Gotham-Medium.woff2') format('woff2'),
+        url('./Gotham-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gotham Ultra';
+    src: url('./Gotham-Ultra.eot');
+    src: url('./Gotham-Ultra.eot?#iefix') format('embedded-opentype'),
+        url('./Gotham-Ultra.woff2') format('woff2'),
+        url('./Gotham-Ultra.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gotham';
+    src: url('./Gotham-Thin.eot');
+    src: url('./Gotham-Thin.eot?#iefix') format('embedded-opentype'),
+        url('./Gotham-Thin.woff2') format('woff2'),
+        url('./Gotham-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gotham';
+    src: url('./Gotham-Light.eot');
+    src: url('./Gotham-Light.eot?#iefix') format('embedded-opentype'),
+        url('./Gotham-Light.woff2') format('woff2'),
+        url('./Gotham-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}

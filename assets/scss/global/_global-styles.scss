@@ -1,0 +1,107 @@
+/* ------------------------------------------- */
+/* GLOBAL STYLES */
+/* ------------------------------------------- */
+.content_for_page {
+    overflow: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+p,
+ul,
+ol,
+blockquote,
+table,
+embed,
+iframe,
+object,
+video,
+input,
+button {
+    font-family: $f-gotham;
+}
+
+a {
+    transition: all 250ms ease;
+}
+
+
+.h1-banner {
+    font-size: 110px;
+    line-height: 110px;
+    letter-spacing: -1.3px;
+
+
+    @include large-size-max {
+        font-size: 90px;
+        line-height: 94px;
+        letter-spacing: -0.4px;
+    }
+
+    @include medium-size-max {
+        font-size: 44px;
+        line-height: 44px;
+        letter-spacing: -0.5px;
+    }
+}
+
+.h1 {
+    font-size: 56px;
+    line-height: 64px;
+    letter-spacing: 0.1px;
+
+    @include medium-size-max {
+        font-size: 42px;
+        line-height: 52px;
+        letter-spacing: 0.08px;
+    }
+}
+
+.h2 {
+    font-size: 42px;
+    line-height: 48px;
+    letter-spacing: 0.08px;
+    margin-bottom: 40px;
+}
+
+.h3 {
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: -0.01px;
+    margin-bottom: 30px;
+}
+
+.h4 {
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: -0.1px;
+    margin-bottom: 20px;
+}
+
+.h5 {
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 1.2px;
+}
+
+.p {
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: -0.1px;
+
+    @include medium-size-max {
+        font-size: 14px;
+        line-height: 22px;
+        letter-spacing: 0.16px;
+    }
+}

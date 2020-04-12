@@ -1,0 +1,221 @@
+/* ------------------------------------------- */
+/* PADDINGS AND MARGINS */
+/* ------------------------------------------- */
+
+$count: 40;
+
+// Negative values
+$step: -5;
+@for $i from 0 through $count {
+  .margin-lg-#{$step*$i}t {
+    margin-top: 0px+$step*$i;
+  }
+}
+@for $i from 0 through $count {
+  .margin-lg-#{$step*$i}b {
+    margin-bottom: 0px+$step*$i;
+  }
+}
+@for $i from 0 through $count {
+  .padding-lg-#{$step*$i}t {
+    padding-top: 0px+$step*$i;
+  }
+}
+@for $i from 0 through $count {
+  .padding-lg-#{$step*$i}b {
+    padding-bottom: 0px+$step*$i;
+  }
+}
+@for $i from 0 through $count {
+  .margin-lg-#{$step*$i}l {
+    margin-left: 0px+$step*$i;
+  }
+}
+@for $i from 0 through $count {
+  .margin-lg-#{$step*$i}r {
+    margin-right: 0px+$step*$i;
+  }
+}
+@for $i from 0 through $count {
+  .padding-lg-#{$step*$i}l {
+    padding-left: 0px+$step*$i;
+  }
+}
+@for $i from 0 through $count {
+  .padding-lg-#{$step*$i}r {
+    padding-right: 0px+$step*$i;
+  }
+}
+
+// Positive values
+$step: 5;
+@for $i from 0 through $count {
+  .margin-lg-#{$step*$i}t {
+    margin-top: 0px+$step*$i;
+  }
+}
+@for $i from 0 through $count {
+  .margin-lg-#{$step*$i}b {
+    margin-bottom: 0px+$step*$i;
+  }
+}
+@for $i from 0 through $count {
+  .padding-lg-#{$step*$i}t {
+    padding-top: 0px+$step*$i;
+  }
+}
+@for $i from 0 through $count {
+  .padding-lg-#{$step*$i}b {
+    padding-bottom: 0px+$step*$i;
+  }
+}
+
+@for $i from 0 through $count {
+  .margin-lg-#{$step*$i}l {
+    margin-left: 0px+$step*$i;
+  }
+}
+@for $i from 0 through $count {
+  .margin-lg-#{$step*$i}r {
+    margin-right: 0px+$step*$i;
+  }
+}
+@for $i from 0 through $count {
+  .padding-lg-#{$step*$i}l {
+    padding-left: 0px+$step*$i;
+  }
+}
+@for $i from 0 through $count {
+  .padding-lg-#{$step*$i}r {
+    padding-right: 0px+$step*$i;
+  }
+}
+
+@include medium-size-max {
+  @for $i from 0 through $count {
+    .margin-md-#{$step*$i}t {
+      margin-top: 0px+$step*$i;
+    }
+  }
+  @for $i from 0 through $count {
+    .margin-md-#{$step*$i}b {
+      margin-bottom: 0px+$step*$i;
+    }
+  }
+  @for $i from 0 through $count {
+    .padding-md-#{$step*$i}t {
+      padding-top: 0px+$step*$i;
+    }
+  }
+  @for $i from 0 through $count {
+    .padding-md-#{$step*$i}b {
+      padding-bottom: 0px+$step*$i;
+    }
+  }
+  @for $i from 0 through $count {
+    .margin-md-#{$step*$i}l {
+      margin-left: 0px+$step*$i;
+    }
+  }
+  @for $i from 0 through $count {
+    .margin-md-#{$step*$i}r {
+      margin-right: 0px+$step*$i;
+    }
+  }
+  @for $i from 0 through $count {
+    .padding-md-#{$step*$i}l {
+      padding-left: 0px+$step*$i;
+    }
+  }
+  @for $i from 0 through $count {
+    .padding-md-#{$step*$i}r {
+      padding-right: 0px+$step*$i;
+    }
+  }  
+}
+
+@include small-size-max {
+  @for $i from 0 through $count {
+    .margin-sm-#{$step*$i}t {
+      margin-top: 0px+$step*$i;
+    }
+  }
+  @for $i from 0 through $count {
+    .margin-sm-#{$step*$i}b {
+      margin-bottom: 0px+$step*$i;
+    }
+  }
+  @for $i from 0 through $count {
+    .padding-sm-#{$step*$i}t {
+      padding-top: 0px+$step*$i;
+    }
+  }
+  @for $i from 0 through $count {
+    .padding-sm-#{$step*$i}b {
+      padding-bottom: 0px+$step*$i;
+    }
+  }
+  @for $i from 0 through $count {
+    .margin-sm-#{$step*$i}l {
+      margin-left: 0px+$step*$i;
+    }
+  }
+  @for $i from 0 through $count {
+    .margin-sm-#{$step*$i}r {
+      margin-right: 0px+$step*$i;
+    }
+  }
+  @for $i from 0 through $count {
+    .padding-sm-#{$step*$i}l {
+      padding-left: 0px+$step*$i;
+    }
+  }
+  @for $i from 0 through $count {
+    .padding-sm-#{$step*$i}r {
+      padding-right: 0px+$step*$i;
+    }
+  }  
+}
+
+@include extra-small-size-max {
+  @for $i from 0 through $count {
+    .margin-xs-#{$step*$i}t {
+      margin-top: 0px+$step*$i;
+    }
+  }
+  @for $i from 0 through $count {
+    .margin-xs-#{$step*$i}b {
+      margin-bottom: 0px+$step*$i;
+    }
+  }
+  @for $i from 0 through $count {
+    .padding-xs-#{$step*$i}t {
+      padding-top: 0px+$step*$i;
+    }
+  }
+  @for $i from 0 through $count {
+    .padding-xs-#{$step*$i}b {
+      padding-bottom: 0px+$step*$i;
+    }
+  }
+  @for $i from 0 through $count {
+    .margin-xs-#{$step*$i}l {
+      margin-left: 0px+$step*$i;
+    }
+  }
+  @for $i from 0 through $count {
+    .margin-xs-#{$step*$i}r {
+      margin-right: 0px+$step*$i;
+    }
+  }
+  @for $i from 0 through $count {
+    .padding-xs-#{$step*$i}l {
+      padding-left: 0px+$step*$i;
+    }
+  }
+  @for $i from 0 through $count {
+    .padding-xs-#{$step*$i}r {
+      padding-right: 0px+$step*$i;
+    }
+  }  
+}
